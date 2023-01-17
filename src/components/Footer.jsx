@@ -5,7 +5,7 @@ import {Link} from "react-router-dom"
 
 function Footer() {
   return (
-    <footer className="text-center bg-dark footer--pin" style={{position:"unset", width:"100%", bottom:"0"}}>
+    <footer className="text-center bg-dark footer--pin" style={{position:'static',margin:'auto',width:'100%' ,bottom:'0',display:'block'}}>
       <div className="container text-white py-4 py-lg-5">
         <ul className="list-inline">
           <li className="list-inline-item me-4"><Link className="link-light" to="/">Home</Link ></li>
